@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#ff9f2e">
+<title>Fetch Chaos — Throw it. Dog wrecks it.</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <div class="logo">🐕 Fetch <span>Chaos</span></div>
+    <div class="hud">
+      <div>Score <b id="score">0</b></div>
+      <div>Throw <b id="throwNum">1/10</b></div>
+      <div>Best <b id="best">0</b></div>
+    </div>
+  </header>
+  <canvas id="game" width="960" height="540"></canvas>
+  <div id="controls">
+    <button id="restartBtn">↻ Restart</button>
+    <button id="shareBtn">📣 Share Score</button>
+    <button id="soundBtn">🔊 Sound</button>
+  </div>
+  <p class="hint">Drag anywhere to aim, release to throw. Your dog does the rest — the messier, the better.</p>
+  <div id="toast"></div>
+</div>
+<script src="src/game.js"></script>
+</body>
+</html>
