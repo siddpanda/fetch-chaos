@@ -1,1 +1,8 @@
-{"appId":"com.siddpanda.fetchchaos","appName":"Fetch Chaos","server":{"androidScheme":"https"},"webDir":"."}
+{
+  "appId": "com.siddpanda.fetchchaos",
+  "appName": "Fetch Chaos",
+  "server": {
+    "androidScheme": "https"
+  },
+  "webDir": "www"
+}
