@@ -5,4 +5,8 @@ dist/
 *.aab
 *.apk
 *.ipa
+*.jks
+*.keystore
+keystore.properties
+android-keystore/
 .DS_Store
